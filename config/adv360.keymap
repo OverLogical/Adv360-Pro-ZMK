@@ -30,7 +30,7 @@
 /* custom behaviors */
 
 // homerow mods
-ZMK_BEHAVIOR(hrm, hold_tap,
+ZMK_BEHAVIOR(hm, hold_tap,
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <175>;
@@ -45,7 +45,6 @@ ZMK_UNICODE_PAIR( de_ue,   N0, N0,  F,  C,   N0, N0,  D,  C )
 
 
 ZMK_LAYER(default_layer,
-
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5             &tog 1      &mo 3     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T              &none      &kp de_ue      &kp Y      &kp U      &kp I      &kp O      &kp P   &kp DE_UE
    &kp ESC      &kp A     &kp S     &kp D      &kp F     &kp G              &kp de_ae  &kp LCTRL   &kp LALT                         &kp LGUI  &kp RCTRL      &kp de_oe     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
